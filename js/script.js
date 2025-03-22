@@ -21,4 +21,8 @@ buttonReset.addEventListener('click',()=> { //Capturamos el evento cuando hagamo
     localStorage.clear()
     localStorage.setItem('counter','0') //Actualizamos la base de datos local a 0 cuando hacemos click
     counteVisits.innerHTML=localStorage.getItem('counter') //Actualizamos el valor de la web
+    //const fData=document.getElementsByTagName('.p');
+    //console.log(fData);
+    //fData.innerHTML=`<p>Fecha de último borrado ${Date()}</p>`;
+
 })

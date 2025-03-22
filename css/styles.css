@@ -1,0 +1,26 @@
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+#btnReestablecer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-color: black;
+    border-radius: 15px;
+    width: 250px;
+    height: 150px;
+}
+#btnReestablecer:hover {
+    background-color: red;
+}
